@@ -1,0 +1,63 @@
+DATA QUALITY SUMMARY
+
+Dataset Overview
+---------------
+10 CSV datasets were loaded successfully using Pandas.
+
+1. 01_fund_master.csv
+- Shape: (40,15)
+- No missing values found.
+- No duplicate rows found.
+
+2. 02_nav_history.csv
+- Shape: (46000,3)
+- No missing values found.
+- No duplicate rows found.
+
+3. 03_aum_by_fund_house.csv
+- Shape: (90,5)
+- No missing values found.
+- No duplicate rows found.
+
+4. 04_monthly_sip_inflows.csv
+- Shape: (48,6)
+- Missing values detected in yoy_growth_pct column (12 missing values).
+- No duplicate rows found.
+
+5. 05_category_inflows.csv
+- Shape: (144,3)
+- No missing values found.
+- No duplicate rows found.
+
+6. 06_industry_folio_count.csv
+- Shape: (21,6)
+- No missing values found.
+- No duplicate rows found.
+
+7. 07_scheme_performance.csv
+- Shape: (40,19)
+- No missing values found.
+- No duplicate rows found.
+
+8. 08_investor_transactions.csv
+- Shape: (32778,13)
+- No missing values found.
+- No duplicate rows found.
+
+9. 09_portfolio_holdings.csv
+- Shape: (322,8)
+- No missing values found.
+- No duplicate rows found.
+
+10. 10_benchmark_indices.csv
+- Shape: (8050,3)
+- No missing values found.
+- No duplicate rows found.
+
+Overall Observations
+--------------------
+- All datasets loaded successfully.
+- Data types appear appropriate.
+- No duplicate rows were detected.
+- Missing values were found only in the yoy_growth_pct column of 04_monthly_sip_inflows.csv.
+- No major data quality issues were observed.
