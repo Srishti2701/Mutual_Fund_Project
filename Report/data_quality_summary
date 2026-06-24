@@ -61,3 +61,12 @@ Overall Observations
 - No duplicate rows were detected.
 - Missing values were found only in the yoy_growth_pct column of 04_monthly_sip_inflows.csv.
 - No major data quality issues were observed.
+
+
+AMFI CODE VALIDATION
+
+All AMFI codes in fund_master.csv were found in nav_history.csv.
+
+Missing Codes: None
+
+Validation Result: Passed
